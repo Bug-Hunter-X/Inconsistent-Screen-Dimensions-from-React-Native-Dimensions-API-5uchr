@@ -1,0 +1,1 @@
+This bug occurs when using the `Dimensions` API in React Native to get screen dimensions.  The `Dimensions.get('window')` method sometimes returns incorrect values, particularly when the app is running on a device with a notch or when the keyboard is visible. This can lead to layout issues where elements are not positioned correctly, are cut off, or overlap.
